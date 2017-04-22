@@ -1,0 +1,68 @@
+body {
+  background: #fff;
+}
+#map {
+  width: 1920px;
+  height: 960px;
+  margin: 100 auto;
+  position: relative;
+}
+#heading {
+  position: absolute;
+  top: 30px;
+  left: 350px;
+  width: 420px;
+}
+#heading h1 {
+  font-size: 3.5em;
+  margin: 0;
+}
+h2 {
+  clear: left;
+}
+.author a, .meta a {
+  color: #000;
+}
+.author, .meta {
+  color: #666;
+  font-style: italic;
+  font-size: small;
+}
+#map svg {
+  margin-top:20px;
+}
+.globe {
+  cursor: move;
+}
+.background {
+  stroke: none;
+  fill: #fff;
+}
+.outline {
+  stroke: #000;
+  stroke-width: 1px;
+  fill: none;
+}
+.graticule {
+  stroke: #000;
+  stroke-width: 1px;
+  stroke-opacity: .5;
+  fill: none;
+}
+.land {
+  stroke: #000;
+  stroke-width: 1px;
+  fill: #595f62;
+}
+.boundary {
+  stroke: #000;
+  stroke-width: 1px;
+  stroke-opacity: .7;
+  fill: none;
+}
+.face {
+  stroke: #000;
+  stroke-width: 1px;
+  stroke-dasharray: 8,3;
+  fill: none;
+}
